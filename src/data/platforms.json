@@ -1,0 +1,79 @@
+{
+  "platforms": [
+    {
+      "id": "apple",
+      "name": "Apple Wallet",
+      "slug": "apple",
+      "icon": "apple",
+      "tagline": "Add your digital ID or passport to iPhone",
+      "description": "Apple Wallet supports state digital IDs, driver licenses, and US passports on iPhone and Apple Watch. The feature requires iOS 15.4 or later, and is accepted at select TSA checkpoints and participating businesses.",
+      "supported_documents": ["State driver license", "State ID card", "US passport (selected states)"],
+      "requirements": [
+        "iPhone with iOS 15.4 or later",
+        "Apple Watch (optional — some states support it)",
+        "A participating state (see state list below)",
+        "A REAL ID-compliant driver license or state ID card"
+      ],
+      "general_steps": [
+        "Open the Wallet app on your iPhone.",
+        "Tap the + button in the top right corner.",
+        "Select 'Driver's License or State ID' (or 'US Passport' if applicable).",
+        "Choose your state from the list.",
+        "Follow the prompts to scan your physical ID and complete identity verification.",
+        "Wait for your state DMV to approve the request — this usually takes a few minutes."
+      ],
+      "accepted_where": "TSA airport security checkpoints (select airports), and merchants and venues that accept Apple Wallet IDs.",
+      "official_url": "https://support.apple.com/en-us/111890"
+    },
+    {
+      "id": "google",
+      "name": "Google Wallet",
+      "slug": "google",
+      "icon": "google",
+      "tagline": "Add your digital ID or passport to Android",
+      "description": "Google Wallet supports state digital IDs and driver licenses on Android phones. The digital ID is stored securely on-device and can be presented at TSA checkpoints and participating locations.",
+      "supported_documents": ["State driver license", "State ID card"],
+      "requirements": [
+        "Android phone running Android 9 or later",
+        "Google Wallet app (latest version)",
+        "A participating state (see state list below)",
+        "A REAL ID-compliant driver license or state ID card"
+      ],
+      "general_steps": [
+        "Open the Google Wallet app.",
+        "Tap the + button to add a new card.",
+        "Tap 'ID documents', then 'Driver's license or state ID'.",
+        "Select your state.",
+        "Scan the front and back of your physical driver license or ID.",
+        "Complete the selfie/liveness verification.",
+        "Your state DMV processes the request — approval typically takes a few minutes."
+      ],
+      "accepted_where": "TSA airport security checkpoints (select airports), and merchants and venues that accept Google Wallet IDs.",
+      "official_url": "https://support.google.com/wallet/answer/12009738"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung Wallet",
+      "slug": "samsung",
+      "icon": "samsung",
+      "tagline": "Add your digital ID to Samsung devices",
+      "description": "Samsung Wallet supports digital IDs on Samsung Galaxy phones in select states. It uses the same underlying ISO 18013-5 mDL standard as Apple and Google Wallet.",
+      "supported_documents": ["State driver license (select states)"],
+      "requirements": [
+        "Samsung Galaxy phone with Samsung Wallet app",
+        "One UI 5.0 or later",
+        "A participating state"
+      ],
+      "general_steps": [
+        "Open the Samsung Wallet app on your Galaxy phone.",
+        "Tap + to add a new item.",
+        "Select 'ID' from the available categories.",
+        "Choose your state.",
+        "Scan your driver license and complete identity verification.",
+        "Wait for state approval."
+      ],
+      "accepted_where": "Varies by state — check with your state DMV for accepted locations.",
+      "official_url": "https://www.samsung.com/us/apps/samsung-wallet/digital-id/"
+    }
+  ]
+}

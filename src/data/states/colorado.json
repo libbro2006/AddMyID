@@ -1,0 +1,66 @@
+{
+  "name": "Colorado",
+  "abbreviation": "CO",
+  "slug": "colorado",
+  "mdl_status": "live",
+  "last_updated": "2026-05",
+  "notes": "Colorado supports digital ID through myColorado, the state's official app, as well as Apple Wallet and Google Wallet.",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://mycolorado.gov/colorado-digital-id",
+      "steps": [
+        "Open Wallet on your iPhone (iOS 15.4 or later).",
+        "Tap + and select 'Driver's License or State ID'.",
+        "Choose Colorado.",
+        "Scan the front and back of your Colorado driver license.",
+        "Complete the face and motion verification scan.",
+        "Colorado DMV will approve your digital ID — typically within a few minutes."
+      ]
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://mycolorado.gov/colorado-digital-id",
+      "steps": [
+        "Open Google Wallet and tap +.",
+        "Tap 'ID documents', then 'Driver's license or state ID'.",
+        "Select Colorado.",
+        "Scan the front and back of your Colorado ID.",
+        "Complete the selfie verification.",
+        "Approve and wait for Colorado DMV confirmation."
+      ]
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "state_app",
+      "name": "myColorado",
+      "available": true,
+      "coming_soon": false,
+      "app_name": "myColorado",
+      "app_store_url": "https://apps.apple.com/us/app/mycolorado/id1281912812",
+      "play_store_url": "https://play.google.com/store/apps/details?id=gov.colorado.mycolorado",
+      "official_url": "https://mycolorado.gov/colorado-digital-id",
+      "steps": [
+        "Download the myColorado app from the App Store or Google Play.",
+        "Create or sign in to your myColorado account.",
+        "Tap 'Digital ID' from the home screen.",
+        "Scan the front and back of your Colorado driver license or ID.",
+        "Complete the liveness/selfie check.",
+        "Your Digital ID will appear in the app after approval."
+      ]
+    }
+  ]
+}

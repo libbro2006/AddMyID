@@ -1,0 +1,53 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+const {
+  title = 'AddMyID — Add your digital ID to your phone',
+  description = 'Learn how to add your state digital ID, mDL, or digital passport to Apple Wallet, Google Wallet, or your state app.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-surface font-sans text-gray-800 antialiased">
+    <header class="border-b border-gray-100 bg-white">
+      <div class="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
+        <a href="/" class="font-serif text-xl font-semibold text-brand-600 tracking-tight">
+          AddMyID
+        </a>
+        <nav class="flex gap-6 text-sm font-medium text-gray-600">
+          <a href="/" class="hover:text-brand-600 transition-colors">Home</a>
+          <a href="/guides/apple" class="hover:text-brand-600 transition-colors">Apple</a>
+          <a href="/guides/google" class="hover:text-brand-600 transition-colors">Google</a>
+          <a href="/guides/samsung" class="hover:text-brand-600 transition-colors">Samsung</a>
+          <a href="/about" class="hover:text-brand-600 transition-colors">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="mt-20 border-t border-gray-100 bg-white py-8">
+      <div class="mx-auto max-w-4xl px-4 text-center text-sm text-gray-400">
+        <p>AddMyID is an independent resource. Information may change — always verify with your state DMV or wallet provider.</p>
+        <p class="mt-1">&copy; {new Date().getFullYear()} AddMyID</p>
+      </div>
+    </footer>
+  </body>
+</html>

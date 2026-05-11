@@ -1,0 +1,66 @@
+{
+  "name": "Arizona",
+  "abbreviation": "AZ",
+  "slug": "arizona",
+  "mdl_status": "live",
+  "last_updated": "2026-05",
+  "notes": "Arizona was one of the first states to launch a digital ID. It is supported in Apple Wallet and Google Wallet, and Arizona also has its own state app (AZ MVD Now).",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://azdot.gov/motor-vehicles/driver-services/arizona-mobile-id",
+      "steps": [
+        "Open the Wallet app on your iPhone (iOS 15.4 or later required).",
+        "Tap the + button and choose 'Driver's License or State ID'.",
+        "Select Arizona from the state list.",
+        "Scan the front and back of your Arizona driver license or ID card.",
+        "Complete the face and motion scan to verify your identity.",
+        "Your request is sent to the Arizona MVD. You'll get a notification once it's approved — usually within minutes."
+      ]
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://azdot.gov/motor-vehicles/driver-services/arizona-mobile-id",
+      "steps": [
+        "Open Google Wallet on your Android phone.",
+        "Tap + and select 'ID documents', then 'Driver's license or state ID'.",
+        "Choose Arizona.",
+        "Scan the front and back of your physical Arizona ID.",
+        "Complete the selfie step to verify your identity.",
+        "Arizona MVD will process and approve your digital ID within a few minutes."
+      ]
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "state_app",
+      "name": "AZ MVD Now",
+      "available": true,
+      "coming_soon": false,
+      "app_name": "AZ MVD Now",
+      "app_store_url": "https://apps.apple.com/us/app/az-mvd-now/id1364808189",
+      "play_store_url": "https://play.google.com/store/apps/details?id=gov.azdot.mvd",
+      "official_url": "https://azdot.gov/motor-vehicles/driver-services/arizona-mobile-id",
+      "steps": [
+        "Download the AZ MVD Now app from the App Store or Google Play.",
+        "Sign in or create a ServiceArizona account.",
+        "Tap 'Add Mobile ID' from the home screen.",
+        "Scan the front and back of your Arizona driver license or ID.",
+        "Complete the identity verification selfie.",
+        "Your Mobile ID will appear in the app once approved."
+      ]
+    }
+  ]
+}

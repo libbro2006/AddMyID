@@ -1,0 +1,45 @@
+{
+  "name": "Georgia",
+  "abbreviation": "GA",
+  "slug": "georgia",
+  "mdl_status": "coming_soon",
+  "last_updated": "2026-05",
+  "notes": "Georgia has announced plans to support digital ID in Apple Wallet and Google Wallet. Check back for updates.",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": false,
+      "coming_soon": true,
+      "official_url": "https://dds.georgia.gov/",
+      "steps": []
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": false,
+      "coming_soon": true,
+      "official_url": "https://dds.georgia.gov/",
+      "steps": []
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "state_app",
+      "name": "Georgia Digital ID App",
+      "available": false,
+      "coming_soon": true,
+      "app_name": "",
+      "app_store_url": "",
+      "play_store_url": "",
+      "official_url": "https://dds.georgia.gov/",
+      "steps": []
+    }
+  ]
+}

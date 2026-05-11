@@ -1,0 +1,45 @@
+{
+  "name": "State Name",
+  "abbreviation": "XX",
+  "slug": "_template",
+  "mdl_status": "not_available",
+  "last_updated": "2026-05",
+  "notes": "",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "state_app",
+      "name": "State App",
+      "available": false,
+      "coming_soon": false,
+      "app_name": "",
+      "app_store_url": "",
+      "play_store_url": "",
+      "official_url": "",
+      "steps": []
+    }
+  ]
+}

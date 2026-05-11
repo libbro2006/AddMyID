@@ -1,0 +1,59 @@
+{
+  "name": "Maryland",
+  "abbreviation": "MD",
+  "slug": "maryland",
+  "mdl_status": "live",
+  "last_updated": "2026-05",
+  "notes": "Maryland supports digital ID in Apple Wallet and Google Wallet.",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://www.mva.maryland.gov/drivers/pages/mdid.htm",
+      "steps": [
+        "Open Wallet on your iPhone running iOS 15.4 or later.",
+        "Tap + and select 'Driver's License or State ID'.",
+        "Choose Maryland.",
+        "Scan the front and back of your Maryland driver's license or ID.",
+        "Complete the face and motion liveness check.",
+        "The Maryland MVA will verify and approve your digital ID — approval is typically instant to a few minutes."
+      ]
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://www.mva.maryland.gov/drivers/pages/mdid.htm",
+      "steps": [
+        "Open Google Wallet and tap +.",
+        "Select 'ID documents', then 'Driver's license or state ID'.",
+        "Choose Maryland.",
+        "Scan your Maryland ID front and back.",
+        "Take a selfie for identity verification.",
+        "Wait for MVA approval — usually a few minutes."
+      ]
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "state_app",
+      "name": "Maryland mDL App",
+      "available": false,
+      "coming_soon": false,
+      "app_name": "",
+      "app_store_url": "",
+      "play_store_url": "",
+      "official_url": "https://www.mva.maryland.gov/drivers/pages/mdid.htm",
+      "steps": []
+    }
+  ]
+}
