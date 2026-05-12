@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import StateSearch from '../components/StateSearch.astro';
+import USAMap from '../components/USAMap.astro';
 import { getCollection } from '../utils/states';
 
 const states = await getCollection();
@@ -23,9 +24,10 @@ const comingCount = states.filter((s) => s.mdl_status === 'coming_soon').length;
   <section class="mx-auto max-w-4xl px-4 pb-16">
     <StateSearch />
 
-    <p class="mt-4 text-center text-sm text-gray-400">
-      Or browse all states below
-    </p>
+  </section>
+
+  <section class="mx-auto max-w-4xl px-4 pb-6">
+    <USAMap states={states} />
   </section>
 
   <section class="mx-auto max-w-4xl px-4 pb-20">

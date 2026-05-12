@@ -1,0 +1,114 @@
+---
+import type { State } from '../utils/states';
+import rawPaths from '../data/map-paths.json';
+
+interface Props {
+  states: State[];
+}
+
+const { states } = Astro.props;
+
+const stateByAbbr = new Map(states.map((s) => [s.abbreviation.toUpperCase(), s]));
+
+function fill(abbr: string): string {
+  const s = stateByAbbr.get(abbr);
+  if (!s) return '#f3f4f6';
+  if (s.mdl_status === 'live') return '#86efac';
+  if (s.mdl_status === 'coming_soon') return '#fcd34d';
+  return '#d1d5db';
+}
+
+function hoverFill(abbr: string): string {
+  const s = stateByAbbr.get(abbr);
+  if (!s) return '#e5e7eb';
+  if (s.mdl_status === 'live') return '#4ade80';
+  if (s.mdl_status === 'coming_soon') return '#fbbf24';
+  return '#9ca3af';
+}
+
+function href(abbr: string): string {
+  const s = stateByAbbr.get(abbr);
+  return s ? `/state/${s.slug}` : '';
+}
+
+function label(abbr: string): string {
+  const s = stateByAbbr.get(abbr);
+  if (!s) return abbr;
+  const status =
+    s.mdl_status === 'live' ? 'Available'
+    : s.mdl_status === 'coming_soon' ? 'Coming soon'
+    : 'Not available';
+  return s.name + ' — ' + status;
+}
+
+interface PathEntry { abbr: string; d: string }
+const paths = (rawPaths as PathEntry[]).map((p) => ({
+  abbr: p.abbr,
+  d: p.d,
+  fill: fill(p.abbr),
+  hoverFill: hoverFill(p.abbr),
+  href: href(p.abbr),
+  label: label(p.abbr),
+  clickable: !!href(p.abbr),
+}));
+---
+
+<div class="w-full">
+  <svg
+    id="usa-map"
+    viewBox="0 0 975 610"
+    xmlns="http://www.w3.org/2000/svg"
+    class="w-full h-auto block"
+    aria-label="US map showing digital ID availability by state"
+  >
+    {paths.map((p) => (
+      <path
+        data-abbr={p.abbr}
+        data-href={p.href}
+        data-fill={p.fill}
+        data-hover-fill={p.hoverFill}
+        data-label={p.label}
+        d={p.d}
+        fill={p.fill}
+        stroke="white"
+        stroke-width="0.5"
+        stroke-linejoin="round"
+        class={p.clickable ? 'cursor-pointer' : 'cursor-default'}
+      >
+        <title>{p.label}</title>
+      </path>
+    ))}
+  </svg>
+
+  <p id="map-hover-label" class="mt-1.5 h-5 text-center text-sm text-gray-500">&nbsp;</p>
+</div>
+
+<script>
+  const map = document.getElementById('usa-map');
+  const labelEl = document.getElementById('map-hover-label');
+
+  if (map && labelEl) {
+    map.querySelectorAll('path[data-abbr]').forEach(function (path) {
+      var href = path.getAttribute('data-href') || '';
+      var label = path.getAttribute('data-label') || '';
+      var fill = path.getAttribute('data-fill') || '';
+      var hoverFill = path.getAttribute('data-hover-fill') || '';
+
+      path.addEventListener('mouseenter', function () {
+        path.setAttribute('fill', hoverFill);
+        labelEl.textContent = label;
+      });
+
+      path.addEventListener('mouseleave', function () {
+        path.setAttribute('fill', fill);
+        labelEl.textContent = ' ';
+      });
+
+      if (href) {
+        path.addEventListener('click', function () {
+          window.location.href = href;
+        });
+      }
+    });
+  }
+</script>
