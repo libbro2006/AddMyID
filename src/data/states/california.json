@@ -3,7 +3,7 @@
   "abbreviation": "CA",
   "slug": "california",
   "mdl_status": "live",
-  "official_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/california-digital-id/",
+  "official_url": "https://www.dmv.ca.gov/portal/california-mdl/",
   "last_updated": "2026-05",
   "notes": "California supports digital ID in both Apple Wallet and Google Wallet. You must have a California REAL ID-compliant driver license or ID card.",
   "wallets": [
@@ -12,7 +12,7 @@
       "name": "Apple Wallet",
       "available": true,
       "coming_soon": false,
-      "official_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/california-digital-id/",
+      "official_url": "https://www.dmv.ca.gov/portal/california-mdl/",
       "steps": [
         "Make sure your iPhone is running iOS 17 or later.",
         "Open the Wallet app and tap the + button in the top right.",
@@ -27,7 +27,7 @@
       "name": "Google Wallet",
       "available": true,
       "coming_soon": false,
-      "official_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/california-digital-id/",
+      "official_url": "https://www.dmv.ca.gov/portal/california-mdl/",
       "steps": [
         "Make sure your Android device is running Android 9 or later.",
         "Open the Google Wallet app and tap the + button.",

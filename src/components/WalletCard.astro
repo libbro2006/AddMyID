@@ -8,6 +8,7 @@ interface Wallet {
   app_name?: string;
   app_store_url?: string;
   play_store_url?: string;
+  note?: string;
   steps?: string[];
 }
 
@@ -51,6 +52,11 @@ const hasContent = wallet.available && wallet.steps && wallet.steps.length > 0;
       </summary>
 
       <div class="border-t border-gray-100 px-5 pb-5 pt-4">
+        {wallet.note && (
+          <p class="mb-4 rounded-lg bg-amber-50 px-4 py-3 text-sm text-amber-800 border border-amber-200">
+            {wallet.note}
+          </p>
+        )}
         <ol class="space-y-3 text-sm text-gray-700">
           {wallet.steps!.map((step, i) => (
             <li class="flex gap-3">

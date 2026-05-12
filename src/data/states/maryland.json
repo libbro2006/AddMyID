@@ -3,7 +3,7 @@
   "abbreviation": "MD",
   "slug": "maryland",
   "mdl_status": "live",
-  "official_url": "https://www.mva.maryland.gov/drivers/pages/mdid.htm",
+  "official_url": "https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id",
   "last_updated": "2026-05",
   "notes": "Maryland supports digital ID in Apple Wallet and Google Wallet.",
   "wallets": [
@@ -12,7 +12,7 @@
       "name": "Apple Wallet",
       "available": true,
       "coming_soon": false,
-      "official_url": "https://www.mva.maryland.gov/drivers/pages/mdid.htm",
+      "official_url": "https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id",
       "steps": [
         "Open Wallet on your iPhone running iOS 15.4 or later.",
         "Tap + and select 'Driver's License or State ID'.",
@@ -27,7 +27,7 @@
       "name": "Google Wallet",
       "available": true,
       "coming_soon": false,
-      "official_url": "https://www.mva.maryland.gov/drivers/pages/mdid.htm",
+      "official_url": "https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id",
       "steps": [
         "Open Google Wallet and tap +.",
         "Select 'ID documents', then 'Driver's license or state ID'.",
@@ -60,7 +60,7 @@
       "app_name": "",
       "app_store_url": "",
       "play_store_url": "",
-      "official_url": "https://www.mva.maryland.gov/drivers/pages/mdid.htm",
+      "official_url": "https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id",
       "steps": []
     }
   ]

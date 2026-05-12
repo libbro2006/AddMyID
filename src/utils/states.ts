@@ -7,6 +7,7 @@ interface Wallet {
   app_name?: string;
   app_store_url?: string;
   play_store_url?: string;
+  note?: string;
   steps?: string[];
 }
 
