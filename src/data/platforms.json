@@ -100,7 +100,8 @@
         }
       ],
       "accepted_where": "TSA airport security checkpoints (select airports), and merchants and venues that accept Google Wallet IDs.",
-      "official_url": "https://support.google.com/wallet/answer/12009738"
+      "official_url": "https://support.google.com/wallet/answer/12009738",
+      "participating_states": ["Arizona", "Arkansas", "California", "Colorado", "Georgia", "Iowa", "Maryland", "Montana", "New Mexico", "North Dakota", "Puerto Rico"]
     },
     {
       "id": "samsung",
