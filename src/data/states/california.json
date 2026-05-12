@@ -3,6 +3,7 @@
   "abbreviation": "CA",
   "slug": "california",
   "mdl_status": "live",
+  "official_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/california-digital-id/",
   "last_updated": "2026-05",
   "notes": "California supports digital ID in both Apple Wallet and Google Wallet. You must have a California REAL ID-compliant driver license or ID card.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Tap 'Driver's License or State ID' and select California.",
         "Follow the prompts to scan the front and back of your physical ID.",
         "Complete the face scan to verify your identity.",
-        "Your ID will be submitted to the California DMV for approval — this typically takes a few minutes."
+        "Your ID will be submitted to the California DMV for approval \u2014 this typically takes a few minutes."
       ]
     },
     {
@@ -34,7 +35,7 @@
         "Select California from the list.",
         "Scan the front and back of your California driver license or ID.",
         "Complete the selfie verification step.",
-        "Your submission goes to the California DMV — approval usually arrives within a few minutes."
+        "Your submission goes to the California DMV \u2014 approval usually arrives within a few minutes."
       ]
     },
     {

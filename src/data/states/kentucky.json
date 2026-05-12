@@ -3,6 +3,7 @@
   "abbreviation": "KY",
   "slug": "kentucky",
   "mdl_status": "live",
+  "official_url": "https://drive.ky.gov/Pages/Mobile-ID.aspx",
   "last_updated": "2026-05",
   "notes": "Kentucky supports digital ID through the KY Mobile ID app. Apple Wallet, Google Wallet, and Samsung Wallet are not currently supported.",
   "wallets": [

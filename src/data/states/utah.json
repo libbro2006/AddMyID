@@ -3,6 +3,7 @@
   "abbreviation": "UT",
   "slug": "utah",
   "mdl_status": "live",
+  "official_url": "https://mobiledl.us/utah/",
   "last_updated": "2026-05",
   "notes": "Utah supports digital ID through the GET Mobile app. Apple Wallet, Google Wallet, and Samsung Wallet are not currently supported.",
   "wallets": [

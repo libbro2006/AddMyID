@@ -3,6 +3,7 @@
   "abbreviation": "ND",
   "slug": "north-dakota",
   "mdl_status": "live",
+  "official_url": "https://www.dot.nd.gov/driver/mobile-id-information",
   "last_updated": "2026-05",
   "notes": "North Dakota supports digital ID in Apple Wallet, Google Wallet, and Samsung Wallet.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select North Dakota from the state list.",
         "Scan the front and back of your North Dakota driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the North Dakota DOT. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the North Dakota DOT. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {

@@ -3,6 +3,7 @@
   "abbreviation": "IL",
   "slug": "illinois",
   "mdl_status": "live",
+  "official_url": "https://www.ilsos.gov/departments/drivers/mobile-id/apple-wallet.html",
   "last_updated": "2026-05",
   "notes": "Illinois supports digital ID in Apple Wallet. Google Wallet and Samsung Wallet are not currently supported.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select Illinois from the state list.",
         "Scan the front and back of your Illinois driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the Illinois Secretary of State. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the Illinois Secretary of State. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {

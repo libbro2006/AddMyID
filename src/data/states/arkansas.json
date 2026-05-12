@@ -3,6 +3,7 @@
   "abbreviation": "AR",
   "slug": "arkansas",
   "mdl_status": "live",
+  "official_url": "https://www.dfa.arkansas.gov/office/driver-services/mobile-id/",
   "last_updated": "2026-05",
   "notes": "Arkansas supports digital ID through the Arkansas Mobile ID app, Google Wallet, and Samsung Wallet. Apple Wallet is not currently supported.",
   "wallets": [

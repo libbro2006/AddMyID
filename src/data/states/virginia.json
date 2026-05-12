@@ -3,6 +3,7 @@
   "abbreviation": "VA",
   "slug": "virginia",
   "mdl_status": "live",
+  "official_url": "https://www.dmv.virginia.gov/licenses-ids/mobile-id",
   "last_updated": "2026-05",
   "notes": "Virginia supports digital ID through the VA MiD app. Apple Wallet, Google Wallet, and Samsung Wallet are not currently supported.",
   "wallets": [

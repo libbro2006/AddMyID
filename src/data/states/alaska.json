@@ -3,6 +3,7 @@
   "abbreviation": "AK",
   "slug": "alaska",
   "mdl_status": "live",
+  "official_url": "https://dmv.alaska.gov/mid/",
   "last_updated": "2026-05",
   "notes": "Alaska supports digital ID through the Alaska Mobile ID app. Apple Wallet, Google Wallet, and Samsung Wallet are not currently supported.",
   "wallets": [

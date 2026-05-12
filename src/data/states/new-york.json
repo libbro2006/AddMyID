@@ -3,6 +3,7 @@
   "abbreviation": "NY",
   "slug": "new-york",
   "mdl_status": "live",
+  "official_url": "https://dmv.ny.gov/id-card/mobile-id-mid",
   "last_updated": "2026-05",
   "notes": "New York supports digital ID through the NY MiD app. Apple Wallet, Google Wallet, and Samsung Wallet are not currently supported.",
   "wallets": [

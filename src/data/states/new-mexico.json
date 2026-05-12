@@ -3,6 +3,7 @@
   "abbreviation": "NM",
   "slug": "new-mexico",
   "mdl_status": "live",
+  "official_url": "https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/new-mexico-mobile-id/",
   "last_updated": "2026-05",
   "notes": "New Mexico supports digital ID in Apple Wallet and Google Wallet. Samsung Wallet is not currently supported.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select New Mexico from the state list.",
         "Scan the front and back of your New Mexico driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the New Mexico MVD. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the New Mexico MVD. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {

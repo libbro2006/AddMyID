@@ -3,6 +3,7 @@
   "abbreviation": "LA",
   "slug": "louisiana",
   "mdl_status": "live",
+  "official_url": "https://lawallet.com/",
   "last_updated": "2026-05",
   "notes": "Louisiana supports digital ID through the LA Wallet app. Apple Wallet, Google Wallet, and Samsung Wallet are not currently supported.",
   "wallets": [

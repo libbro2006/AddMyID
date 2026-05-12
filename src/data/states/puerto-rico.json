@@ -3,6 +3,7 @@
   "abbreviation": "PR",
   "slug": "puerto-rico",
   "mdl_status": "live",
+  "official_url": "https://www.idmovil.pr.gov/",
   "last_updated": "2026-05",
   "notes": "Puerto Rico supports digital ID in Apple Wallet and Google Wallet. Samsung Wallet is not currently supported.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select Puerto Rico from the list.",
         "Scan the front and back of your Puerto Rico driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to Puerto Rico DTOP. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to Puerto Rico DTOP. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {
@@ -46,7 +47,7 @@
     },
     {
       "id": "state_app",
-      "name": "ID Móvil PR",
+      "name": "ID M\u00f3vil PR",
       "available": false,
       "coming_soon": false,
       "app_name": "",

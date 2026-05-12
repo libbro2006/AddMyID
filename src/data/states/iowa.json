@@ -3,6 +3,7 @@
   "abbreviation": "IA",
   "slug": "iowa",
   "mdl_status": "live",
+  "official_url": "https://iowadot.gov/mvd/Mobile-ID",
   "last_updated": "2026-05",
   "notes": "Iowa supports digital ID through the Iowa Mobile ID app as well as Apple Wallet, Google Wallet, and Samsung Wallet.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select Iowa from the state list.",
         "Scan the front and back of your Iowa driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the Iowa DOT. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the Iowa DOT. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {

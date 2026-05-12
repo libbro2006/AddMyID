@@ -3,6 +3,7 @@
   "abbreviation": "HI",
   "slug": "hawaii",
   "mdl_status": "live",
+  "official_url": "https://hidot.hawaii.gov/highways/mobile-driver-license/",
   "last_updated": "2026-05",
   "notes": "Hawaii supports digital ID in Apple Wallet. Google Wallet and Samsung Wallet are not currently supported.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select Hawaii from the state list.",
         "Scan the front and back of your Hawaii driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the Hawaii DOT. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the Hawaii DOT. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {

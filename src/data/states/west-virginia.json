@@ -3,6 +3,7 @@
   "abbreviation": "WV",
   "slug": "west-virginia",
   "mdl_status": "live",
+  "official_url": "https://transportation.wv.gov/DMV/MiD/Pages/default.aspx",
   "last_updated": "2026-05",
   "notes": "West Virginia supports digital ID through the WV MiD app, Apple Wallet, and Samsung Wallet. Google Wallet is not currently supported.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select West Virginia from the state list.",
         "Scan the front and back of your West Virginia driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the West Virginia DMV. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the West Virginia DMV. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {

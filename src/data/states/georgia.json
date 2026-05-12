@@ -3,6 +3,7 @@
   "abbreviation": "GA",
   "slug": "georgia",
   "mdl_status": "live",
+  "official_url": "https://dds.georgia.gov/georgia-licenseid/ga-digital-id",
   "last_updated": "2026-05",
   "notes": "Georgia supports digital ID in Apple Wallet, Google Wallet, and Samsung Wallet.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select Georgia from the state list.",
         "Scan the front and back of your Georgia driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the Georgia DDS. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the Georgia DDS. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {

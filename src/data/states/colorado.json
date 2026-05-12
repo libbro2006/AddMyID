@@ -3,6 +3,7 @@
   "abbreviation": "CO",
   "slug": "colorado",
   "mdl_status": "live",
+  "official_url": "https://mycolorado.gov/colorado-digital-id",
   "last_updated": "2026-05",
   "notes": "Colorado supports digital ID through myColorado, the state's official app, as well as Apple Wallet and Google Wallet.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Choose Colorado.",
         "Scan the front and back of your Colorado driver license.",
         "Complete the face and motion verification scan.",
-        "Colorado DMV will approve your digital ID — typically within a few minutes."
+        "Colorado DMV will approve your digital ID \u2014 typically within a few minutes."
       ]
     },
     {

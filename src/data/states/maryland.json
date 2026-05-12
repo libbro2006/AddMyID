@@ -3,6 +3,7 @@
   "abbreviation": "MD",
   "slug": "maryland",
   "mdl_status": "live",
+  "official_url": "https://www.mva.maryland.gov/drivers/pages/mdid.htm",
   "last_updated": "2026-05",
   "notes": "Maryland supports digital ID in Apple Wallet and Google Wallet.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Choose Maryland.",
         "Scan the front and back of your Maryland driver's license or ID.",
         "Complete the face and motion liveness check.",
-        "The Maryland MVA will verify and approve your digital ID — approval is typically instant to a few minutes."
+        "The Maryland MVA will verify and approve your digital ID \u2014 approval is typically instant to a few minutes."
       ]
     },
     {
@@ -33,7 +34,7 @@
         "Choose Maryland.",
         "Scan your Maryland ID front and back.",
         "Take a selfie for identity verification.",
-        "Wait for MVA approval — usually a few minutes."
+        "Wait for MVA approval \u2014 usually a few minutes."
       ]
     },
     {

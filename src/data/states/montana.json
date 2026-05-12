@@ -3,6 +3,7 @@
   "abbreviation": "MT",
   "slug": "montana",
   "mdl_status": "live",
+  "official_url": "https://mvdmt.gov/mobile-id/",
   "last_updated": "2026-05",
   "notes": "Montana supports digital ID in Apple Wallet and Google Wallet. Samsung Wallet is not currently supported.",
   "wallets": [
@@ -18,7 +19,7 @@
         "Select Montana from the state list.",
         "Scan the front and back of your Montana driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the Montana MVD. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the Montana MVD. You'll receive a notification once approved \u2014 usually within a few minutes."
       ]
     },
     {
