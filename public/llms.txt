@@ -1,0 +1,41 @@
+# AddMyID
+
+> AddMyID is an independent reference site that helps US residents add their state digital ID, mobile driver's license (mDL), or US passport to Apple Wallet, Google Wallet, or Samsung Wallet.
+
+## About
+
+AddMyID covers all 50 US states and territories, tracking which states have launched digital ID programs (mDL — mobile driver's license, ISO 18013-5 standard). Each state page lists supported phone wallets, step-by-step setup instructions, and a link to the official state program page.
+
+As of 2026, 21 US states and territories have live digital ID programs: Alaska, Arizona, Arkansas, California, Colorado, Georgia, Hawaii, Illinois, Iowa, Kentucky, Louisiana, Maryland, Montana, New Mexico, New York, North Dakota, Ohio, Puerto Rico, Utah, Virginia, and West Virginia.
+
+## Wallet guides
+
+- [Apple Wallet guide](https://addmyid.info/guides/apple): Step-by-step instructions for adding a state digital ID or US passport to Apple Wallet on iPhone (iOS 15.4+). Participating states: Arizona, California, Colorado, Georgia, Hawaii, Illinois, Iowa, Maryland, Montana, New Mexico, North Dakota, Ohio, Puerto Rico, West Virginia.
+- [Google Wallet guide](https://addmyid.info/guides/google): Step-by-step instructions for adding a state digital ID or US passport to Google Wallet on Android (Android 9+). Participating states: Arizona, Arkansas, California, Colorado, Georgia, Iowa, Maryland, Montana, New Mexico, North Dakota, Puerto Rico.
+- [Samsung Wallet guide](https://addmyid.info/guides/samsung): Step-by-step instructions for adding a state digital ID to Samsung Wallet on Galaxy phones (One UI 5+). Participating states: Arizona, California, Colorado, Georgia, Iowa, Maryland, West Virginia.
+
+## State pages
+
+Each state page describes which wallets are supported, any state-specific requirements, and step-by-step setup instructions.
+
+- [Alaska](https://addmyid.info/state/alaska)
+- [Arizona](https://addmyid.info/state/arizona)
+- [Arkansas](https://addmyid.info/state/arkansas)
+- [California](https://addmyid.info/state/california)
+- [Colorado](https://addmyid.info/state/colorado)
+- [Georgia](https://addmyid.info/state/georgia)
+- [Hawaii](https://addmyid.info/state/hawaii)
+- [Illinois](https://addmyid.info/state/illinois)
+- [Iowa](https://addmyid.info/state/iowa)
+- [Kentucky](https://addmyid.info/state/kentucky)
+- [Louisiana](https://addmyid.info/state/louisiana)
+- [Maryland](https://addmyid.info/state/maryland)
+- [Montana](https://addmyid.info/state/montana)
+- [New Mexico](https://addmyid.info/state/new-mexico)
+- [New York](https://addmyid.info/state/new-york)
+- [North Dakota](https://addmyid.info/state/north-dakota)
+- [Ohio](https://addmyid.info/state/ohio)
+- [Puerto Rico](https://addmyid.info/state/puerto-rico)
+- [Utah](https://addmyid.info/state/utah)
+- [Virginia](https://addmyid.info/state/virginia)
+- [West Virginia](https://addmyid.info/state/west-virginia)

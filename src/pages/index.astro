@@ -7,9 +7,22 @@ import { getCollection } from '../utils/states';
 const states = await getCollection();
 const liveCount = states.filter((s) => s.mdl_status === 'live').length;
 const comingCount = states.filter((s) => s.mdl_status === 'coming_soon').length;
+
+const homeSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'AddMyID',
+  url: 'https://addmyid.info',
+  description: 'Learn how to add your state digital ID, mDL, or digital passport to Apple Wallet, Google Wallet, or your state app.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: 'https://addmyid.info/?q={search_term_string}',
+    'query-input': 'required name=search_term_string',
+  },
+});
 ---
 
-<Layout>
+<Layout schema={homeSchema}>
   <section class="mx-auto max-w-4xl px-4 pt-16 pb-12 text-center">
     <h1 class="font-serif text-4xl font-semibold leading-tight text-gray-900 sm:text-5xl">
       Add your digital ID<br />to your phone

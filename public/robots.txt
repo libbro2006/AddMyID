@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://addmyid.info/sitemap-index.xml
