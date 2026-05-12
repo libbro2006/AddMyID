@@ -4,6 +4,7 @@
   "slug": "arizona",
   "mdl_status": "live",
   "last_updated": "2026-05",
+  "official_url": "https://azdot.gov/mvd/mobile-driver-license",
   "notes": "Arizona was one of the first states to launch a digital ID. It is supported in Apple Wallet and Google Wallet, and Arizona also has its own state app (AZ MVD Now).",
   "wallets": [
     {

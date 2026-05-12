@@ -17,6 +17,7 @@ export interface State {
   mdl_status: 'live' | 'coming_soon' | 'not_available';
   last_updated: string;
   notes?: string;
+  official_url?: string;
   wallets: Wallet[];
 }
 
