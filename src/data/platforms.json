@@ -57,7 +57,7 @@
       "slug": "google",
       "icon": "google",
       "tagline": "Add your digital ID or passport to Android",
-      "description": "Google Wallet supports state digital IDs and driver licenses on Android phones. The digital ID is stored securely on-device and can be presented at TSA checkpoints and participating locations.",
+      "description": "Google Wallet supports state digital IDs, driver licenses, and US passports on Android phones. Your credentials are stored securely on-device and can be presented at TSA checkpoints and participating locations.",
       "supported_documents": ["State driver license", "State ID card", "US passport"],
       "requirements": [
         "Android phone running Android 9 or later",
