@@ -5,14 +5,14 @@ export default {
     extend: {
       colors: {
         brand: {
-          50:  '#f0f0fd',
-          100: '#e3e3fb',
-          200: '#cccbf8',
-          500: '#6b6ee7',
-          600: '#5558d4',
-          700: '#4346bb',
+          50:  'var(--brand-50)',
+          100: 'var(--brand-100)',
+          200: 'var(--brand-200)',
+          500: 'var(--brand-500)',
+          600: 'var(--brand-600)',
+          700: 'var(--brand-700)',
         },
-        surface: '#fafaf8',
+        surface: 'var(--surface)',
       },
       fontFamily: {
         serif: ['Lora', 'Georgia', 'serif'],

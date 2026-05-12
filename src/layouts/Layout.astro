@@ -10,7 +10,7 @@ const {
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="c">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,11 +22,73 @@ const {
       href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <style is:global>
+      :root {
+        --brand-50:  #f0f0fd;
+        --brand-100: #e3e3fb;
+        --brand-200: #cccbf8;
+        --brand-500: #6b6ee7;
+        --brand-600: #5558d4;
+        --brand-700: #4346bb;
+        --surface:   #fafaf8;
+      }
+      /* Option A: Civic Bold — saturated cobalt blue */
+      [data-theme="a"] {
+        --brand-50:  #eff6ff;
+        --brand-100: #dbeafe;
+        --brand-200: #bfdbfe;
+        --brand-500: #3b82f6;
+        --brand-600: #2563eb;
+        --brand-700: #1d4ed8;
+        --surface:   #ffffff;
+      }
+      /* Option B: Forest + Amber — deep forest green, warm cream */
+      [data-theme="b"] {
+        --brand-50:  #f0fdf4;
+        --brand-100: #dcfce7;
+        --brand-200: #bbf7d0;
+        --brand-500: #22c55e;
+        --brand-600: #16a34a;
+        --brand-700: #15803d;
+        --surface:   #fdfdf5;
+      }
+      /* Option C: Dark Mode — slate navy + Okta blue */
+      [data-theme="c"] {
+        --brand-50:  #e8f5fb;
+        --brand-100: #bde3f5;
+        --brand-200: #7ec8ed;
+        --brand-500: #2196d8;
+        --brand-600: #007dc1;
+        --brand-700: #005f97;
+        --surface:   #0f172a;
+        color-scheme: dark;
+      }
+      [data-theme="c"] .bg-white            { background-color: #1e293b !important; }
+      [data-theme="c"] .bg-gray-50          { background-color: #334155 !important; }
+      [data-theme="c"] .bg-gray-200         { background-color: #475569 !important; }
+      [data-theme="c"] .text-gray-900       { color: #f1f5f9 !important; }
+      [data-theme="c"] .text-gray-800       { color: #e2e8f0 !important; }
+      [data-theme="c"] .text-gray-700       { color: #cbd5e1 !important; }
+      [data-theme="c"] .text-gray-600       { color: #94a3b8 !important; }
+      [data-theme="c"] .text-gray-500       { color: #94a3b8 !important; }
+      [data-theme="c"] .text-gray-400       { color: #64748b !important; }
+      [data-theme="c"] .border-gray-100     { border-color: #334155 !important; }
+      [data-theme="c"] .border-gray-200     { border-color: #334155 !important; }
+      [data-theme="c"] .hover\:bg-gray-50:hover { background-color: #334155 !important; }
+      [data-theme="c"] .placeholder-gray-400::placeholder { color: #475569 !important; }
+      [data-theme="c"] .shadow-lg           { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.3) !important; }
+    </style>
+    <script is:inline>
+      (function () {
+        var raw = new URLSearchParams(window.location.search).get('brand');
+        if (raw) document.documentElement.dataset.theme = raw.toLowerCase().replace('option', '');
+      })();
+    </script>
   </head>
   <body class="bg-surface font-sans text-gray-800 antialiased">
     <header class="border-b border-gray-100 bg-white">
       <div class="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
-        <a href="/" class="font-serif text-xl font-semibold text-brand-600 tracking-tight">
+        <a href="/" class="font-serif text-3xl font-semibold text-brand-600 tracking-tight">
           AddMyID
         </a>
         <nav class="flex gap-6 text-sm font-medium text-gray-600">
