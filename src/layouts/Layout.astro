@@ -31,9 +31,21 @@ const {
         </a>
         <nav class="flex gap-6 text-sm font-medium text-gray-600">
           <a href="/" class="hover:text-brand-600 transition-colors">Home</a>
-          <a href="/guides/apple" class="hover:text-brand-600 transition-colors">Apple</a>
-          <a href="/guides/google" class="hover:text-brand-600 transition-colors">Google</a>
-          <a href="/guides/samsung" class="hover:text-brand-600 transition-colors">Samsung</a>
+          <div class="relative group">
+            <button class="flex items-center gap-1 hover:text-brand-600 transition-colors cursor-pointer">
+              Phone Wallets
+              <svg class="w-3 h-3 mt-px" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="absolute right-0 top-full pt-2 hidden group-hover:block z-10">
+              <div class="bg-white border border-gray-100 rounded-lg shadow-lg py-1 min-w-[140px]">
+                <a href="/guides/apple" class="block px-4 py-2 hover:bg-gray-50 hover:text-brand-600 transition-colors">Apple Wallet</a>
+                <a href="/guides/google" class="block px-4 py-2 hover:bg-gray-50 hover:text-brand-600 transition-colors">Google Wallet</a>
+                <a href="/guides/samsung" class="block px-4 py-2 hover:bg-gray-50 hover:text-brand-600 transition-colors">Samsung Wallet</a>
+              </div>
+            </div>
+          </div>
           <a href="/about" class="hover:text-brand-600 transition-colors">About</a>
         </nav>
       </div>

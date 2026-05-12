@@ -1,24 +1,24 @@
 {
-  "name": "Georgia",
-  "abbreviation": "GA",
-  "slug": "georgia",
+  "name": "North Dakota",
+  "abbreviation": "ND",
+  "slug": "north-dakota",
   "mdl_status": "live",
   "last_updated": "2026-05",
-  "notes": "Georgia supports digital ID in Apple Wallet, Google Wallet, and Samsung Wallet.",
+  "notes": "North Dakota supports digital ID in Apple Wallet, Google Wallet, and Samsung Wallet.",
   "wallets": [
     {
       "id": "apple_wallet",
       "name": "Apple Wallet",
       "available": true,
       "coming_soon": false,
-      "official_url": "https://dds.georgia.gov/georgia-licenseid/ga-digital-drivers-license",
+      "official_url": "https://www.dot.nd.gov/driver/mobile-id-information/apple-wallet",
       "steps": [
         "Open the Wallet app on your iPhone (iOS 15.4 or later required).",
         "Tap the + button and choose 'Driver's License or State ID'.",
-        "Select Georgia from the state list.",
-        "Scan the front and back of your Georgia driver's license or ID card.",
+        "Select North Dakota from the state list.",
+        "Scan the front and back of your North Dakota driver's license or ID card.",
         "Complete the face and motion scan to verify your identity.",
-        "Your request is sent to the Georgia DDS. You'll receive a notification once approved — usually within a few minutes."
+        "Your request is sent to the North Dakota DOT. You'll receive a notification once approved — usually within a few minutes."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "name": "Google Wallet",
       "available": true,
       "coming_soon": false,
-      "official_url": "https://dds.georgia.gov/digital-id-google-wallet",
+      "official_url": "https://www.dot.nd.gov/driver/mobile-id-information/google-wallet",
       "steps": [
         "Open Google Wallet on your Android device.",
         "Tap + and select 'ID documents', then 'Driver's license or state ID'.",
-        "Choose Georgia.",
-        "Scan the front and back of your Georgia driver's license or ID.",
+        "Choose North Dakota.",
+        "Scan the front and back of your North Dakota driver's license or ID.",
         "Complete the selfie step to verify your identity.",
-        "Georgia DDS will process and approve your digital ID within a few minutes."
+        "The North Dakota DOT will process and approve your digital ID within a few minutes."
       ]
     },
     {
@@ -41,25 +41,25 @@
       "name": "Samsung Wallet",
       "available": true,
       "coming_soon": false,
-      "official_url": "https://dds.georgia.gov/digital-id-samsung-wallet",
+      "official_url": "https://www.dot.nd.gov/driver/mobile-id-information/samsung-wallet",
       "steps": [
         "Open Samsung Wallet on your Samsung device.",
         "Tap + and select 'ID'.",
-        "Choose Georgia.",
-        "Scan the front and back of your Georgia driver's license or ID.",
+        "Choose North Dakota.",
+        "Scan the front and back of your North Dakota driver's license or ID.",
         "Complete the identity verification step.",
-        "Georgia DDS will verify and approve your digital ID."
+        "The North Dakota DOT will verify and approve your digital ID."
       ]
     },
     {
       "id": "state_app",
-      "name": "Georgia Digital ID App",
+      "name": "North Dakota State App",
       "available": false,
       "coming_soon": false,
       "app_name": "",
       "app_store_url": "",
       "play_store_url": "",
-      "official_url": "https://dds.georgia.gov/georgia-licenseid/ga-digital-id",
+      "official_url": "https://www.dot.nd.gov/driver/mobile-id-information",
       "steps": []
     }
   ]

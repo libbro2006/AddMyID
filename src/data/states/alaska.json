@@ -1,0 +1,51 @@
+{
+  "name": "Alaska",
+  "abbreviation": "AK",
+  "slug": "alaska",
+  "mdl_status": "live",
+  "last_updated": "2026-05",
+  "notes": "Alaska supports digital ID through the Alaska Mobile ID app. Apple Wallet, Google Wallet, and Samsung Wallet are not currently supported.",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "state_app",
+      "name": "Alaska Mobile ID",
+      "available": true,
+      "coming_soon": false,
+      "app_name": "Alaska Mobile ID",
+      "app_store_url": "",
+      "play_store_url": "",
+      "official_url": "https://dmv.alaska.gov/mid/",
+      "steps": [
+        "Download the Alaska Mobile ID app from the App Store or Google Play.",
+        "Create or sign in to your Alaska DMV account.",
+        "Follow the in-app prompts to scan the front and back of your Alaska driver's license or ID.",
+        "Complete the identity verification step.",
+        "Your Mobile ID will be available in the app once approved by the Alaska DMV."
+      ]
+    }
+  ]
+}

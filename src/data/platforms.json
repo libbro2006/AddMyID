@@ -7,7 +7,7 @@
       "icon": "apple",
       "tagline": "Add your digital ID or passport to iPhone",
       "description": "Apple Wallet supports state digital IDs, driver licenses, and US passports on iPhone and Apple Watch. The feature requires iOS 15.4 or later, and is accepted at select TSA checkpoints and participating businesses.",
-      "supported_documents": ["State driver license", "State ID card", "US passport (selected states)"],
+      "supported_documents": ["State driver license (selected states)", "State ID card", "US passport"],
       "requirements": [
         "iPhone with iOS 15.4 or later",
         "Apple Watch (optional — some states support it)",
@@ -22,8 +22,34 @@
         "Follow the prompts to scan your physical ID and complete identity verification.",
         "Wait for your state DMV to approve the request — this usually takes a few minutes."
       ],
+      "step_groups": [
+        {
+          "title": "Adding a state driver's license or ID",
+          "steps": [
+            "Open the Wallet app on your iPhone (iOS 15.4 or later required).",
+            "Tap the + button in the top right corner.",
+            "Select 'Driver's License or State ID'.",
+            "Choose your state from the list.",
+            "Scan the front and back of your physical driver's license or ID.",
+            "Complete the face and motion scan to verify your identity.",
+            "Your state DMV processes the request — approval typically takes a few minutes."
+          ]
+        },
+        {
+          "title": "Adding a US passport",
+          "steps": [
+            "Open the Wallet app on your iPhone (iOS 16 or later required).",
+            "Tap the + button in the top right corner.",
+            "Select 'Passport'.",
+            "Scan the photo page of your US passport using your iPhone's camera.",
+            "Complete the face scan to verify your identity.",
+            "Apple processes your passport — it will appear in your wallet once verified."
+          ]
+        }
+      ],
       "accepted_where": "TSA airport security checkpoints (select airports), and merchants and venues that accept Apple Wallet IDs.",
-      "official_url": "https://support.apple.com/en-us/111890"
+      "official_url": "https://learn.wallet.apple/id",
+      "participating_states": ["Arizona", "California", "Colorado", "Georgia", "Hawaii", "Illinois", "Iowa", "Maryland", "Montana", "New Mexico", "North Dakota", "Ohio", "Puerto Rico", "West Virginia"]
     },
     {
       "id": "google",
@@ -32,7 +58,7 @@
       "icon": "google",
       "tagline": "Add your digital ID or passport to Android",
       "description": "Google Wallet supports state digital IDs and driver licenses on Android phones. The digital ID is stored securely on-device and can be presented at TSA checkpoints and participating locations.",
-      "supported_documents": ["State driver license", "State ID card"],
+      "supported_documents": ["State driver license", "State ID card", "US passport"],
       "requirements": [
         "Android phone running Android 9 or later",
         "Google Wallet app (latest version)",
@@ -47,6 +73,31 @@
         "Scan the front and back of your physical driver license or ID.",
         "Complete the selfie/liveness verification.",
         "Your state DMV processes the request — approval typically takes a few minutes."
+      ],
+      "step_groups": [
+        {
+          "title": "Adding a state driver's license or ID",
+          "steps": [
+            "Open the Google Wallet app.",
+            "Tap the + button to add a new card.",
+            "Tap 'ID documents', then 'Driver's license or state ID'.",
+            "Select your state from the list.",
+            "Scan the front and back of your physical driver's license or ID.",
+            "Complete the selfie and liveness verification.",
+            "Your state DMV processes the request — approval typically takes a few minutes."
+          ]
+        },
+        {
+          "title": "Adding a US passport",
+          "steps": [
+            "Open the Google Wallet app.",
+            "Tap the + button to add a new card.",
+            "Tap 'ID documents', then 'Passport'.",
+            "Scan the photo page of your US passport using your phone's camera.",
+            "Complete the identity verification step.",
+            "Google processes your passport — it will appear in your wallet once verified."
+          ]
+        }
       ],
       "accepted_where": "TSA airport security checkpoints (select airports), and merchants and venues that accept Google Wallet IDs.",
       "official_url": "https://support.google.com/wallet/answer/12009738"
@@ -73,7 +124,8 @@
         "Wait for state approval."
       ],
       "accepted_where": "Varies by state — check with your state DMV for accepted locations.",
-      "official_url": "https://www.samsung.com/us/apps/samsung-wallet/digital-id/"
+      "official_url": "https://www.samsung.com/us/apps/samsung-wallet/digital-id/",
+      "participating_states": ["Arizona", "California", "Colorado", "Georgia", "Iowa", "Maryland", "West Virginia"]
     }
   ]
 }

@@ -47,14 +47,20 @@
     },
     {
       "id": "state_app",
-      "name": "CA DMV Digital ID",
-      "available": false,
+      "name": "CA DMV Wallet",
+      "available": true,
       "coming_soon": false,
-      "app_name": "",
+      "app_name": "CA DMV Wallet",
       "app_store_url": "",
       "play_store_url": "",
-      "official_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/california-digital-id/",
-      "steps": []
+      "official_url": "https://www.dmv.ca.gov/portal/ca-dmv-wallet/",
+      "steps": [
+        "Download the CA DMV Wallet app from the App Store or Google Play.",
+        "Sign in or create a DMV account.",
+        "Follow the prompts to scan the front and back of your California driver's license or ID.",
+        "Complete the identity verification selfie.",
+        "Your digital ID will appear in the app once the California DMV approves it."
+      ]
     }
   ]
 }

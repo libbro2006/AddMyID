@@ -39,10 +39,17 @@
     {
       "id": "samsung_wallet",
       "name": "Samsung Wallet",
-      "available": false,
+      "available": true,
       "coming_soon": false,
-      "official_url": "",
-      "steps": []
+      "official_url": "https://www.samsung.com/us/apps/samsung-wallet/digital-id/",
+      "steps": [
+        "Open Samsung Wallet on your Samsung device.",
+        "Tap + and select 'ID'.",
+        "Choose Arizona.",
+        "Scan the front and back of your Arizona driver's license or ID.",
+        "Complete the identity verification step.",
+        "Arizona MVD will verify and approve your digital ID."
+      ]
     },
     {
       "id": "state_app",

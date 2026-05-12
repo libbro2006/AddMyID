@@ -1,0 +1,59 @@
+{
+  "name": "Montana",
+  "abbreviation": "MT",
+  "slug": "montana",
+  "mdl_status": "live",
+  "last_updated": "2026-05",
+  "notes": "Montana supports digital ID in Apple Wallet and Google Wallet. Samsung Wallet is not currently supported.",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://mvdmt.gov/mobile-id/id-in-apple-wallet/",
+      "steps": [
+        "Open the Wallet app on your iPhone (iOS 15.4 or later required).",
+        "Tap the + button and choose 'Driver's License or State ID'.",
+        "Select Montana from the state list.",
+        "Scan the front and back of your Montana driver's license or ID card.",
+        "Complete the face and motion scan to verify your identity.",
+        "Your request is sent to the Montana MVD. You'll receive a notification once approved — usually within a few minutes."
+      ]
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://mvdmt.gov/mobile-id/google-wallet/",
+      "steps": [
+        "Open Google Wallet on your Android device.",
+        "Tap + and select 'ID documents', then 'Driver's license or state ID'.",
+        "Choose Montana.",
+        "Scan the front and back of your Montana driver's license or ID.",
+        "Complete the selfie step to verify your identity.",
+        "The Montana MVD will process and approve your digital ID within a few minutes."
+      ]
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "state_app",
+      "name": "Montana State App",
+      "available": false,
+      "coming_soon": false,
+      "app_name": "",
+      "app_store_url": "",
+      "play_store_url": "",
+      "official_url": "https://mvdmt.gov/mobile-id/",
+      "steps": []
+    }
+  ]
+}

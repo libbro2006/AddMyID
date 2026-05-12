@@ -1,0 +1,72 @@
+{
+  "name": "Iowa",
+  "abbreviation": "IA",
+  "slug": "iowa",
+  "mdl_status": "live",
+  "last_updated": "2026-05",
+  "notes": "Iowa supports digital ID through the Iowa Mobile ID app as well as Apple Wallet, Google Wallet, and Samsung Wallet.",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://iowadot.gov/mvd/MID-Apple",
+      "steps": [
+        "Open the Wallet app on your iPhone (iOS 15.4 or later required).",
+        "Tap the + button and choose 'Driver's License or State ID'.",
+        "Select Iowa from the state list.",
+        "Scan the front and back of your Iowa driver's license or ID card.",
+        "Complete the face and motion scan to verify your identity.",
+        "Your request is sent to the Iowa DOT. You'll receive a notification once approved — usually within a few minutes."
+      ]
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://iowadot.gov/mvd/MID-Google",
+      "steps": [
+        "Open Google Wallet on your Android device.",
+        "Tap + and select 'ID documents', then 'Driver's license or state ID'.",
+        "Choose Iowa.",
+        "Scan the front and back of your Iowa driver's license or ID.",
+        "Complete the selfie step to verify your identity.",
+        "The Iowa DOT will process and approve your digital ID within a few minutes."
+      ]
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://iowadot.gov/mvd/MID-Samsung",
+      "steps": [
+        "Open Samsung Wallet on your Samsung device.",
+        "Tap + and select 'ID'.",
+        "Choose Iowa.",
+        "Scan the front and back of your Iowa driver's license or ID.",
+        "Complete the identity verification step.",
+        "The Iowa DOT will verify and approve your digital ID."
+      ]
+    },
+    {
+      "id": "state_app",
+      "name": "Iowa Mobile ID",
+      "available": true,
+      "coming_soon": false,
+      "app_name": "Iowa Mobile ID",
+      "app_store_url": "",
+      "play_store_url": "",
+      "official_url": "https://iowadot.gov/mvd/Mobile-ID",
+      "steps": [
+        "Download the Iowa Mobile ID app from the App Store or Google Play.",
+        "Create or sign in to your Iowa DOT account.",
+        "Follow the in-app prompts to scan the front and back of your Iowa driver's license or ID.",
+        "Complete the identity verification step.",
+        "Your Mobile ID will be available in the app once approved by the Iowa DOT."
+      ]
+    }
+  ]
+}

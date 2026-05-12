@@ -53,19 +53,57 @@ const { platform } = Astro.props;
         </ul>
       </section>
 
-      <section>
-        <h2 class="font-serif text-xl font-semibold text-gray-900 mb-4">General setup steps</h2>
-        <ol class="space-y-4">
-          {platform.general_steps.map((step, i) => (
-            <li class="flex gap-4 text-sm text-gray-700">
-              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-50 text-xs font-semibold text-brand-600">
-                {i + 1}
-              </span>
-              <span class="leading-relaxed pt-0.5">{step}</span>
-            </li>
-          ))}
-        </ol>
-      </section>
+      {platform.step_groups ? (
+        <section>
+          <h2 class="font-serif text-xl font-semibold text-gray-900 mb-6">Setup steps</h2>
+          <div class="space-y-8">
+            {platform.step_groups.map((group: { title: string; steps: string[] }) => (
+              <div>
+                <h3 class="font-semibold text-gray-800 mb-4">{group.title}</h3>
+                <ol class="space-y-4">
+                  {group.steps.map((step: string, i: number) => (
+                    <li class="flex gap-4 text-sm text-gray-700">
+                      <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-50 text-xs font-semibold text-brand-600">
+                        {i + 1}
+                      </span>
+                      <span class="leading-relaxed pt-0.5">{step}</span>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+      ) : (
+        <section>
+          <h2 class="font-serif text-xl font-semibold text-gray-900 mb-4">General setup steps</h2>
+          <ol class="space-y-4">
+            {platform.general_steps.map((step: string, i: number) => (
+              <li class="flex gap-4 text-sm text-gray-700">
+                <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-50 text-xs font-semibold text-brand-600">
+                  {i + 1}
+                </span>
+                <span class="leading-relaxed pt-0.5">{step}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {platform.participating_states && (
+        <section>
+          <h2 class="font-serif text-xl font-semibold text-gray-900 mb-4">Participating states</h2>
+          <p class="text-sm text-gray-500 mb-3">Driver's license or state ID holders in these states can add their ID to {platform.name}:</p>
+          <ul class="space-y-2">
+            {platform.participating_states.map((state: string) => (
+              <li class="flex items-center gap-2 text-sm text-gray-700">
+                <span class="h-1.5 w-1.5 rounded-full bg-brand-500"></span>
+                {state}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section>
         <h2 class="font-serif text-xl font-semibold text-gray-900 mb-3">Accepted where?</h2>
