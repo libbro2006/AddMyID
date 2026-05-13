@@ -53,6 +53,10 @@ Platform data in `platforms.json` supports:
 Individual wallet entries within a state JSON support:
 - `note` — renders an amber callout above the steps (use for important caveats, e.g. non-standard mDL apps)
 
+## Analytics
+
+Traffic is tracked via [GoatCounter](https://www.goatcounter.com) — a lightweight, privacy-friendly, no-cookie analytics tool. The script is loaded in `Layout.astro` and fires on every page. Dashboard is at [addmyid.goatcounter.com](https://addmyid.goatcounter.com).
+
 ## SEO and discoverability
 
 - Open Graph, Twitter Card, and canonical URL tags are rendered by `Layout.astro` on every page
