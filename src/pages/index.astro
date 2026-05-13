@@ -7,6 +7,7 @@ import { getCollection } from '../utils/states';
 const states = await getCollection();
 const liveCount = states.filter((s) => s.mdl_status === 'live').length;
 const comingCount = states.filter((s) => s.mdl_status === 'coming_soon').length;
+const lastUpdated = states.reduce((max, s) => s.last_updated > max ? s.last_updated : max, '');
 
 const homeSchema = JSON.stringify({
   '@context': 'https://schema.org',
@@ -70,6 +71,8 @@ const homeSchema = JSON.stringify({
       <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-green-600"></span> Available ({liveCount})</span>
       <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-gray-200"></span> Not available</span>
     </div>
+
+    <p class="mt-6 text-xs text-gray-400 text-right">Last updated: {lastUpdated}</p>
   </section>
 
   <section class="border-t border-gray-100 bg-white py-16">
