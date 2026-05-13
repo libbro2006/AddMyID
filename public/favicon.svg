@@ -1,0 +1,16 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ID Card Background -->
+  <rect x="8" y="16" width="48" height="32" rx="4" fill="#005f97" opacity="0.1"/>
+  <rect x="8" y="16" width="48" height="32" rx="4" stroke="#005f97" stroke-width="2.5"/>
+
+  <!-- Profile Circle -->
+  <circle cx="22" cy="28" r="6" stroke="#005f97" stroke-width="2.5" fill="white"/>
+
+  <!-- ID Lines -->
+  <line x1="32" y1="24" x2="48" y2="24" stroke="#005f97" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="32" y1="32" x2="44" y2="32" stroke="#005f97" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Checkmark Badge -->
+  <circle cx="48" cy="40" r="10" fill="#16a34a"/>
+  <path d="M44 40L46.5 42.5L52 37" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
