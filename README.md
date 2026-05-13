@@ -4,7 +4,7 @@ A consumer-facing reference site that helps US residents add their digital ID or
 
 ## What it does
 
-Covers 21 participating states and territories (sourced from the TSA's official participating states list), with step-by-step setup instructions for Apple Wallet, Google Wallet, Samsung Wallet, and state-specific apps. Also covers adding a US passport to Apple Wallet and Google Wallet.
+Has a page for all 50 US states. The 21 states and territories with live programs include step-by-step setup instructions for Apple Wallet, Google Wallet, Samsung Wallet, and state-specific apps, plus US passport support for Apple and Google Wallet. The remaining 29 states show a not-yet-available page with information on how to encourage state legislators to launch a program.
 
 ## Tech
 
