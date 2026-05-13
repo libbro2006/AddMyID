@@ -23,6 +23,7 @@ src/
     state/[state]    # Per-state detail page
     guides/[platform] # Per-wallet guide page
   components/
+    Logo.astro       # SVG logo (ID card + checkmark) + wordmark, used in header
     StateSearch.astro
     USAMap.astro     # Interactive SVG map (Albers USA projection, 975×610 viewBox)
     WalletCard.astro
