@@ -13,7 +13,7 @@ const stateByAbbr = new Map(states.map((s) => [s.abbreviation.toUpperCase(), s])
 function fill(abbr: string): string {
   const s = stateByAbbr.get(abbr);
   if (!s) return '#f3f4f6';
-  if (s.mdl_status === 'live') return '#86efac';
+  if (s.mdl_status === 'live') return '#16a34a';
   if (s.mdl_status === 'coming_soon') return '#fcd34d';
   return '#d1d5db';
 }
@@ -21,7 +21,7 @@ function fill(abbr: string): string {
 function hoverFill(abbr: string): string {
   const s = stateByAbbr.get(abbr);
   if (!s) return '#e5e7eb';
-  if (s.mdl_status === 'live') return '#4ade80';
+  if (s.mdl_status === 'live') return '#15803d';
   if (s.mdl_status === 'coming_soon') return '#fbbf24';
   return '#9ca3af';
 }

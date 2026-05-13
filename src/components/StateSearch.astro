@@ -18,7 +18,7 @@ const statesJson = JSON.stringify(
     <input
       id="state-search"
       type="text"
-      placeholder="Where do you currently reside?"
+      placeholder="In which state are you a resident?"
       autocomplete="off"
       class="w-full rounded-xl border border-gray-200 bg-white py-4 pl-12 pr-4 text-gray-800 shadow-sm placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-100 text-base transition"
     />
@@ -40,7 +40,7 @@ const statesJson = JSON.stringify(
 
   const statusDot = (status) =>
     status === 'live'
-      ? '<span class="h-2 w-2 rounded-full bg-green-400 shrink-0"></span>'
+      ? '<span class="h-2 w-2 rounded-full bg-green-600 shrink-0"></span>'
       : status === 'coming_soon'
       ? '<span class="h-2 w-2 rounded-full bg-amber-400 shrink-0"></span>'
       : '';
