@@ -1,0 +1,21 @@
+Alaska: https://dmv.alaska.gov/mid/
+Arizona: https://azdot.gov/mvd/mobile-driver-license
+Arkansas: https://www.dfa.arkansas.gov/office/driver-services/mobile-id/
+California: https://www.dmv.ca.gov/portal/california-mdl/
+Colorado: https://dmv.colorado.gov/colorado-id-on-your-phone
+Georgia: https://dds.georgia.gov/georgia-licenseid/ga-digital-id
+Hawaii: https://hidot.hawaii.gov/highways/mobile-driver-license/
+Illinois: https://www.ilsos.gov/departments/drivers/mobile-id/apple-wallet.html
+Iowa: https://iowadot.gov/mvd/Mobile-ID
+Kentucky: https://drive.ky.gov/Pages/Mobile-ID.aspx
+Louisiana: https://lawallet.com/
+Maryland: https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id
+Montana: https://mvdmt.gov/mobile-id/
+New Mexico: https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/new-mexico-mobile-id/
+New York: https://dmv.ny.gov/id-card/mobile-id-mid
+North Dakota: https://www.dot.nd.gov/driver/mobile-id-information
+Ohio: https://www.bmv.ohio.gov/dl-mobile-id.aspx
+Puerto Rico: https://www.idmovil.pr.gov/
+Utah: https://mobiledl.us/utah/
+Virginia: https://www.dmv.virginia.gov/licenses-ids/mobile-id
+West Virginia: https://transportation.wv.gov/DMV/MiD/Pages/default.aspx
