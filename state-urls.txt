@@ -1,21 +1,95 @@
-Alaska: https://dmv.alaska.gov/mid/
-Arizona: https://azdot.gov/mvd/mobile-driver-license
-Arkansas: https://www.dfa.arkansas.gov/office/driver-services/mobile-id/
-California: https://www.dmv.ca.gov/portal/california-mdl/
-Colorado: https://dmv.colorado.gov/colorado-id-on-your-phone
-Georgia: https://dds.georgia.gov/georgia-licenseid/ga-digital-id
-Hawaii: https://hidot.hawaii.gov/highways/mobile-driver-license/
-Illinois: https://www.ilsos.gov/departments/drivers/mobile-id/apple-wallet.html
-Iowa: https://iowadot.gov/mvd/Mobile-ID
-Kentucky: https://drive.ky.gov/Pages/Mobile-ID.aspx
-Louisiana: https://lawallet.com/
-Maryland: https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id
-Montana: https://mvdmt.gov/mobile-id/
-New Mexico: https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/new-mexico-mobile-id/
-New York: https://dmv.ny.gov/id-card/mobile-id-mid
-North Dakota: https://www.dot.nd.gov/driver/mobile-id-information
-Ohio: https://www.bmv.ohio.gov/dl-mobile-id.aspx
-Puerto Rico: https://www.idmovil.pr.gov/
-Utah: https://mobiledl.us/utah/
-Virginia: https://www.dmv.virginia.gov/licenses-ids/mobile-id
-West Virginia: https://transportation.wv.gov/DMV/MiD/Pages/default.aspx
+Alaska:
+  Official: https://dmv.alaska.gov/mid/
+
+Arizona:
+  Official: https://azdot.gov/mvd/mobile-driver-license
+  Apple Wallet: https://azdot.gov/mvd/mobile-driver-license
+  Google Wallet: https://azdot.gov/mvd/mobile-driver-license
+  Samsung Wallet: https://www.samsung.com/us/apps/samsung-wallet/digital-id/
+
+Arkansas:
+  Official: https://www.dfa.arkansas.gov/office/driver-services/mobile-id/
+  Google Wallet: https://dfa.arkansas.gov/office/driver-services/mobile-id/google-wallet/
+  Samsung Wallet: https://dfa.arkansas.gov/office/driver-services/mobile-id/samsung-wallet/
+
+California:
+  Official: https://www.dmv.ca.gov/portal/california-mdl/
+  Apple Wallet: https://www.dmv.ca.gov/portal/california-mdl/
+  Google Wallet: https://www.dmv.ca.gov/portal/california-mdl/
+
+Colorado:
+  Official: https://dmv.colorado.gov/colorado-id-on-your-phone
+  Apple Wallet: https://dmv.colorado.gov/colorado-id-on-your-phone
+  Google Wallet: https://dmv.colorado.gov/colorado-id-on-your-phone
+  Samsung Wallet: https://dmv.colorado.gov/colorado-id-in-samsung-wallet
+
+Georgia:
+  Official: https://dds.georgia.gov/georgia-licenseid/ga-digital-id
+  Apple Wallet: https://dds.georgia.gov/georgia-licenseid/ga-digital-drivers-license
+  Google Wallet: https://dds.georgia.gov/digital-id-google-wallet
+  Samsung Wallet: https://dds.georgia.gov/digital-id-samsung-wallet
+
+Hawaii:
+  Official: https://hidot.hawaii.gov/highways/mobile-driver-license/
+  Apple Wallet: https://hidot.hawaii.gov/highways/id-in-apple-wallet/
+
+Illinois:
+  Official: https://www.ilsos.gov/departments/drivers/mobile-id/apple-wallet.html
+  Apple Wallet: https://www.ilsos.gov/departments/drivers/mobile-id/apple-wallet.html
+
+Iowa:
+  Official: https://iowadot.gov/mvd/Mobile-ID
+  Apple Wallet: https://iowadot.gov/mvd/MID-Apple
+  Google Wallet: https://iowadot.gov/mvd/MID-Google
+  Samsung Wallet: https://iowadot.gov/mvd/MID-Samsung
+
+Kentucky:
+  Official: https://drive.ky.gov/Pages/Mobile-ID.aspx
+
+Louisiana:
+  Official: https://lawallet.com/
+
+Maryland:
+  Official: https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id
+  Apple Wallet: https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id
+  Google Wallet: https://mva.maryland.gov/licenses-ids/get-maryland-mobile-id
+  Samsung Wallet: https://www.samsung.com/us/apps/samsung-wallet/digital-id/
+
+Montana:
+  Official: https://mvdmt.gov/mobile-id/
+  Apple Wallet: https://mvdmt.gov/mobile-id/id-in-apple-wallet/
+  Google Wallet: https://mvdmt.gov/mobile-id/google-wallet/
+
+New Mexico:
+  Official: https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/new-mexico-mobile-id/
+  Apple Wallet: https://www.mvd.newmexico.gov/new-mexico-mobile-id-in-apple-wallet/
+  Google Wallet: https://www.mvd.newmexico.gov/new-mexico-id-in-google-wallet/
+
+New York:
+  Official: https://dmv.ny.gov/id-card/mobile-id-mid
+
+North Dakota:
+  Official: https://www.dot.nd.gov/driver/mobile-id-information
+  Apple Wallet: https://www.dot.nd.gov/driver/mobile-id-information/apple-wallet
+  Google Wallet: https://www.dot.nd.gov/driver/mobile-id-information/google-wallet
+  Samsung Wallet: https://www.dot.nd.gov/driver/mobile-id-information/samsung-wallet
+
+Ohio:
+  Official: https://www.bmv.ohio.gov/dl-mobile-id.aspx
+  Apple Wallet: https://www.bmv.ohio.gov/dl-mobile-id.aspx
+
+Puerto Rico:
+  Official: https://www.idmovil.pr.gov/
+  Apple Wallet: https://www.idmovil.pr.gov/idinapplewallet
+  Google Wallet: https://www.idmovil.pr.gov/idingooglewallet
+
+Utah:
+  Official: https://mobiledl.us/utah/
+
+Virginia:
+  Official: https://www.dmv.virginia.gov/licenses-ids/mobile-id
+
+West Virginia:
+  Official: https://transportation.wv.gov/DMV/MiD/Pages/default.aspx
+  Apple Wallet: https://transportation.wv.gov/DMV/MiD/Pages/Apple-Wallet.aspx
+  Samsung Wallet: https://transportation.wv.gov/DMV/MiD/Pages/Samsung_Wallet.aspx
