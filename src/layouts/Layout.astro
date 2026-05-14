@@ -103,8 +103,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     </style>
     <script is:inline>
       (function () {
+        var allowed = ['a', 'b', 'c'];
         var raw = new URLSearchParams(window.location.search).get('brand');
-        if (raw) document.documentElement.dataset.theme = raw.toLowerCase().replace('option', '');
+        if (raw) {
+          var val = raw.toLowerCase().replace('option', '');
+          if (allowed.includes(val)) document.documentElement.dataset.theme = val;
+        }
       })();
     </script>
     <script data-goatcounter="https://addmyid.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
