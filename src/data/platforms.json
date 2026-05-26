@@ -108,23 +108,49 @@
       "name": "Samsung Wallet",
       "slug": "samsung",
       "icon": "samsung",
-      "tagline": "Add your digital ID to Samsung devices",
-      "description": "Samsung Wallet supports digital IDs on Samsung Galaxy phones in select states. It uses the same underlying ISO 18013-5 mDL standard as Apple and Google Wallet.",
-      "supported_documents": ["State driver license (select states)"],
+      "tagline": "Add your digital ID or passport to Samsung devices",
+      "description": "Samsung Wallet supports state digital IDs on Samsung Galaxy phones in select states, and US passports through Samsung ID with CLEAR — a free digital ID backed by your US passport and verified by CLEAR. It's separate from a paid CLEAR+ airport membership and works for any US passport holder. It uses the same underlying ISO 18013-5 mDL standard as Apple and Google Wallet, and is accepted at more than 250 TSA checkpoints. (Reminder: TSA still recommends carrying a REAL ID-compliant document when you fly.)",
+      "supported_documents": ["State driver license (select states)", "US passport (via Samsung ID with CLEAR)"],
       "requirements": [
         "Samsung Galaxy phone with Samsung Wallet app",
-        "One UI 5.0 or later",
-        "A participating state"
+        "Android 9.0 or later",
+        "Samsung account",
+        "A valid US passport (for Samsung ID with CLEAR), or a participating state (for state IDs)"
       ],
       "general_steps": [
         "Open the Samsung Wallet app on your Galaxy phone.",
         "Tap + to add a new item.",
-        "Select 'ID' from the available categories.",
-        "Choose your state.",
-        "Scan your driver license and complete identity verification.",
-        "Wait for state approval."
+        "Select 'Digital IDs'.",
+        "Choose either Samsung ID with CLEAR (for US passport) or your state's ID.",
+        "Follow the prompts to verify your identity.",
+        "Wait for approval — typically just a few minutes."
       ],
-      "accepted_where": "Varies by state — check with your state DMV for accepted locations.",
+      "step_groups": [
+        {
+          "title": "Adding a US passport (Samsung ID with CLEAR)",
+          "steps": [
+            "Make sure you have a valid US passport handy.",
+            "Open the 'Quick Access' tab in Samsung Wallet.",
+            "Tap the + button.",
+            "Select 'Digital IDs'.",
+            "Select 'Samsung ID with CLEAR'.",
+            "Tap 'Get Card' and follow the prompts to scan your passport and verify your identity with CLEAR.",
+            "Once verified, your Samsung ID with CLEAR is ready to use at participating TSA checkpoints with a tap or QR scan."
+          ]
+        },
+        {
+          "title": "Adding a state driver's license or ID",
+          "steps": [
+            "Open the Samsung Wallet app on your Galaxy phone.",
+            "Tap + to add a new item.",
+            "Select 'Digital IDs', then choose your state.",
+            "Scan the front and back of your physical driver's license or ID.",
+            "Complete the selfie and liveness verification.",
+            "Your state DMV processes the request — approval typically takes a few minutes."
+          ]
+        }
+      ],
+      "accepted_where": "More than 250 TSA airport security checkpoints (with Samsung ID with CLEAR), select sporting venues including BMO Stadium in Los Angeles, and locations that accept ISO 18013-5 mDLs. State ID acceptance varies by state.",
       "official_url": "https://www.samsung.com/us/apps/samsung-wallet/digital-id/",
       "participating_states": ["Arizona", "California", "Colorado", "Georgia", "Iowa", "Maryland", "West Virginia"]
     }
