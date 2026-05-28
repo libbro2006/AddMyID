@@ -5,15 +5,22 @@
   "mdl_status": "live",
   "official_url": "https://www.dfa.arkansas.gov/office/driver-services/mobile-id/",
   "last_updated": "2026-05",
-  "notes": "Arkansas supports digital ID through the Arkansas Mobile ID app, Google Wallet, and Samsung Wallet. Apple Wallet is not currently supported.",
+  "notes": "Arkansas supports digital ID through the Arkansas Mobile ID app, Apple Wallet, Google Wallet, and Samsung Wallet.",
   "wallets": [
     {
       "id": "apple_wallet",
       "name": "Apple Wallet",
-      "available": false,
+      "available": true,
       "coming_soon": false,
-      "official_url": "",
-      "steps": []
+      "official_url": "https://www.dfa.arkansas.gov/office/driver-services/mobile-id/apple-wallet/",
+      "steps": [
+        "Open the Wallet app on your iPhone (iOS 15.4 or later required).",
+        "Tap the + button and choose 'Driver's License or State ID'.",
+        "Select Arkansas from the state list.",
+        "Scan the front and back of your Arkansas driver's license or ID card.",
+        "Complete the face and motion scan to verify your identity.",
+        "Your request is sent to the Arkansas DFA. You'll receive a notification once approved — usually within a few minutes."
+      ]
     },
     {
       "id": "google_wallet",

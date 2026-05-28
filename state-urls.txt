@@ -9,6 +9,7 @@ Arizona:
 
 Arkansas:
   Official: https://www.dfa.arkansas.gov/office/driver-services/mobile-id/
+  Apple Wallet: https://dfa.arkansas.gov/office/driver-services/mobile-id/apple-wallet/
   Google Wallet: https://dfa.arkansas.gov/office/driver-services/mobile-id/google-wallet/
   Samsung Wallet: https://dfa.arkansas.gov/office/driver-services/mobile-id/samsung-wallet/
 
