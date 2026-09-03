@@ -4,8 +4,8 @@
   "slug": "colorado",
   "mdl_status": "live",
   "official_url": "https://dmv.colorado.gov/colorado-id-on-your-phone",
-  "last_updated": "2026-05",
-  "notes": "Colorado supports digital ID through myColorado, the state's official app, as well as Apple Wallet and Google Wallet.",
+  "last_updated": "2026-09",
+  "notes": "Colorado supports a standard mobile driver's license (mDL) through the myColorado app, Apple Wallet, Google Wallet, and Samsung Wallet. The myColorado app also separately offers a non-standard Colorado Digital ID (dDL) for in-state use only.",
   "wallets": [
     {
       "id": "apple_wallet",
@@ -64,12 +64,12 @@
       "steps": [
         "Download the myColorado app from the App Store or Google Play.",
         "Create or sign in to your myColorado account.",
-        "Tap 'Digital ID' from the home screen.",
+        "Tap to add your mobile driver's license (mDL) from the home screen.",
         "Scan the front and back of your Colorado driver license or ID.",
         "Complete the liveness/selfie check.",
-        "Your Digital ID will appear in the app after approval."
+        "Your mDL will appear in the app after approval. Add it before arriving at the airport to ensure it's ready for TSA screening."
       ],
-      "note": "Note: The Digital ID stored in the myColorado app is not a standard-format mDL. It cannot be used for travel with the TSA. You must use a phone wallet version instead."
+      "note": "The myColorado app now offers two separate credentials: a standard mDL (add before you fly — accepted at Denver International Airport and other TSA checkpoints nationwide) and the older Colorado Digital ID (dDL), a non-standard credential for in-state use only that is not TSA-accepted. Both live in the myColorado app; the mDL is also available in Apple Wallet, Google Wallet, and Samsung Wallet. Neither replaces your physical ID — keep carrying it."
     }
   ]
 }
