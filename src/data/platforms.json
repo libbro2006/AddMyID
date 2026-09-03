@@ -49,7 +49,7 @@
       ],
       "accepted_where": "TSA airport security checkpoints (select airports), and merchants and venues that accept Apple Wallet IDs.",
       "official_url": "https://learn.wallet.apple/id",
-      "participating_states": ["Arizona", "Arkansas", "California", "Colorado", "Georgia", "Hawaii", "Illinois", "Iowa", "Maryland", "Montana", "New Mexico", "North Dakota", "Ohio", "Puerto Rico", "West Virginia"]
+      "participating_states": ["Arizona", "Arkansas", "California", "Colorado", "Georgia", "Hawaii", "Illinois", "Iowa", "Maryland", "Montana", "New Mexico", "North Dakota", "Ohio", "Oklahoma", "Puerto Rico", "Virginia", "West Virginia"]
     },
     {
       "id": "google",

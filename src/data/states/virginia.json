@@ -4,16 +4,22 @@
   "slug": "virginia",
   "mdl_status": "live",
   "official_url": "https://www.dmv.virginia.gov/licenses-ids/mobile-id",
-  "last_updated": "2026-05",
-  "notes": "Virginia supports digital ID through the VA MiD app. Apple Wallet, Google Wallet, and Samsung Wallet are not currently supported.",
+  "last_updated": "2026-09",
+  "notes": "Virginia supports digital ID through Apple Wallet and the VA MiD app. Google Wallet and Samsung Wallet are not currently supported.",
   "wallets": [
     {
       "id": "apple_wallet",
       "name": "Apple Wallet",
-      "available": false,
+      "available": true,
       "coming_soon": false,
-      "official_url": "",
-      "steps": []
+      "official_url": "https://www.dmv.virginia.gov/licenses-ids/id-apple-wallet",
+      "steps": [
+        "Open the Wallet app on your iPhone.",
+        "Tap the + button in the top-right corner.",
+        "Select 'Driver's License or State ID'.",
+        "Follow the onscreen instructions to scan your Virginia driver's license or ID and verify your identity.",
+        "Once approved by the Virginia DMV, your ID will be available in Apple Wallet on your iPhone and any paired Apple Watch."
+      ]
     },
     {
       "id": "google_wallet",

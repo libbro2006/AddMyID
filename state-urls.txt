@@ -69,6 +69,10 @@ New Mexico:
 New York:
   Official: https://dmv.ny.gov/id-card/mobile-id-mid
 
+Oklahoma:
+  Official: https://oklahoma.gov/service/popular-services/digitalid.html
+  Apple Wallet: https://oklahoma.gov/service/popular-services/digitalid/applewallet.html
+
 North Dakota:
   Official: https://www.dot.nd.gov/driver/mobile-id-information
   Apple Wallet: https://www.dot.nd.gov/driver/mobile-id-information/apple-wallet
@@ -89,6 +93,7 @@ Utah:
 
 Virginia:
   Official: https://www.dmv.virginia.gov/licenses-ids/mobile-id
+  Apple Wallet: https://www.dmv.virginia.gov/licenses-ids/id-apple-wallet
 
 West Virginia:
   Official: https://transportation.wv.gov/DMV/MiD/Pages/default.aspx

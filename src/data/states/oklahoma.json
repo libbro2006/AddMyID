@@ -2,7 +2,52 @@
   "name": "Oklahoma",
   "abbreviation": "OK",
   "slug": "oklahoma",
-  "mdl_status": "not_available",
-  "last_updated": "2026-05",
-  "wallets": []
+  "mdl_status": "live",
+  "official_url": "https://oklahoma.gov/service/popular-services/digitalid.html",
+  "last_updated": "2026-09",
+  "notes": "Oklahoma supports digital ID (Oklahoma Digital ID) through Apple Wallet. Google Wallet, Samsung Wallet, and a dedicated state app are not currently supported — the previous Oklahoma Mobile ID app was decommissioned in 2024.",
+  "wallets": [
+    {
+      "id": "apple_wallet",
+      "name": "Apple Wallet",
+      "available": true,
+      "coming_soon": false,
+      "official_url": "https://oklahoma.gov/service/popular-services/digitalid/applewallet.html",
+      "steps": [
+        "Open the Wallet app on your iPhone (iOS 16.5 or later required).",
+        "Tap the + button and choose 'Driver's License or ID', then select Oklahoma.",
+        "Choose to add it to your iPhone only, or to both your iPhone and a paired Apple Watch (watchOS 11 or later required for Watch).",
+        "Follow the onscreen prompts to scan the front and back of your physical Oklahoma driver's license or State ID.",
+        "Your request is sent to Oklahoma DPS. Once approved, your ID will appear in Apple Wallet.",
+        "Manage your Digital ID (verify, deactivate, or delete) anytime at navigate.ok.gov."
+      ]
+    },
+    {
+      "id": "google_wallet",
+      "name": "Google Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "samsung_wallet",
+      "name": "Samsung Wallet",
+      "available": false,
+      "coming_soon": false,
+      "official_url": "",
+      "steps": []
+    },
+    {
+      "id": "state_app",
+      "name": "Oklahoma Digital ID",
+      "available": false,
+      "coming_soon": false,
+      "app_name": "",
+      "app_store_url": "",
+      "play_store_url": "",
+      "official_url": "",
+      "steps": []
+    }
+  ]
 }
